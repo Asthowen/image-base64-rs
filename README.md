@@ -1,24 +1,22 @@
-#image-base64-rs
-
-<p align="left">
-    <a href="https://crates.io/crates/image-base64">
-        <img src="https://img.shields.io/crates/v/image-base64.svg"
-             alt="crates">
-    </a>
-    <a href="https://travis-ci.org/katsumeshi/image-base64-rs">
-        <img src="https://travis-ci.org/katsumeshi/image-base64-rs.svg?branch=master"
-             alt="travis">
-    </a>
-    
-    
-</p>
-Convert image to base64, and vise versa
+<!--suppress HtmlDeprecatedAttribute -->
+<div align="center">
+    <h1>image-base64-rs</h1>
+    <p>
+        <a href="https://www.rust-lang.org/">
+            <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Made with Rust">
+        </a>
+        <a href="https://github.com/Asthowen/image-base64-rs">
+            <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Use git">
+        </a>
+    </p>
+    <h3>
+        <strong>Converting an image to base64 and vice versa.</strong>
+    </h3>
+</div>
 
 ## Code Example
 
-```
-extern crate image_base64;
-
+```rust
 fn main() {
   let base64 = "base64 String";
   let image = image_base64::from_base64(base64);
@@ -38,5 +36,4 @@ image-base64 = "0.1"
 ```
 
 ## License
-
-MIT
+**[image-base64-rs](https://github.com/Asthowen/image-base64-rs) | [MIT](https://github.com/Asthowen/image-base64-rs/blob/main/LICENSE)**
