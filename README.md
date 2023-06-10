@@ -14,6 +14,8 @@
     </h3>
 </div>
 
+> This repository is based on [image-base64-rs](https://github.com/katsumeshi/image-base64-rs).
+
 ## Code Example
 
 ```rust
