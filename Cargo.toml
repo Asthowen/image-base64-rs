@@ -2,13 +2,14 @@
 name = "image-base64"
 version = "0.1.0"
 license = "MIT"
+edition = "2021"
 description = "Imaging library written in Rust. Provides basic filters and decoders for the most common image formats."
 authors = ["katsumeshi <katsumeshi@gmail.com>"]
 readme = "README.md"
-repository = "https://github.com/katsumeshi/image-base64-rs.git"
+repository = "https://github.com/Asthowen/image-base64-rs"
 
 [dependencies]
-base64 = "0.21.0"
+base64 = "0.21.2"
 
 [dev-dependencies]
 md5 = "0.7.0"
