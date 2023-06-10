@@ -1,7 +1,7 @@
+use base64::{engine::general_purpose, Engine as _};
 use std::fs::File;
 use std::io::Read;
 use std::string::String;
-use base64::{engine::general_purpose, Engine as _};
 
 pub enum FileType {
     JPEG,

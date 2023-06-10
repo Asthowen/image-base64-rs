@@ -82,6 +82,7 @@ fn validate(file_type: &str) {
         get_file_size("output", file_type)
     );
     assert_eq!(get_hash("res", file_type), get_hash("output", file_type));
+    fs::remove_file(format!("output/{}.{}", FILE_NAME, file_type)).ok();
 }
 
 fn get_hash(dir: &str, file_type: &str) -> String {
